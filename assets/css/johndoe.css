@@ -11349,6 +11349,15 @@ p {
   }
 }
 /* START */
+.card-clickable {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card-clickable:hover {
+  transform: translateY(-5px); /* Raise the card by moving it up */
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Add a box shadow for elevation effect */
+}
+
 .member-img {
   width: 150px;
   height: 150px;
