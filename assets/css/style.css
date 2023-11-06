@@ -11399,6 +11399,14 @@ p {
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Add a box shadow for elevation effect */
 }
 
+.social-lin {
+  transition: color 0.2s; /* Smooth color transition on hover */
+}
+
+.social-lin:hover {
+  color: #ff0000; /* Change color to red on hover */
+}
+
 .member-img {
   width: 150px;
   height: 150px;
